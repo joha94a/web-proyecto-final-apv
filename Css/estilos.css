@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Uchen&display=swap');
+
+html, body{
+    height: 100%;
+    min-height: 100%;
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+    background-color: #8e9aaf;
+    background-image: url(../Img/lilac2.jpg); /*linear-gradient(to right, rgba(26, 71, 109, 0.6), rgba(96, 83, 143, 0.6));*/
+    background-size: cover;}
+
+/* ---------------------header -------------------- */
+
+header{
+    background-image: linear-gradient(to right,rgba(194, 190, 130, 0.7), rgba(247, 242, 211, 0.7));
+    height: 15%;
+    width: 98%;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    border-radius: 20px; 
+    box-shadow: 10px 5px 5px rgb(106, 107, 93);
+    }
+
+.navdelheader{
+    text-align: right;
+    padding-top: 4%;
+    padding-right: 1%;
+    font-size: 150%; 
+    }
+
+.navdelheader a{color:rgb(179, 50, 93); font-family: New Century Schoolbook, TeX Gyre Schola, serif; text-decoration: none; margin-right: 12px;}
+.navdelheader a:hover {color:#c98db2; font-weight: bold; }
+.navdelheader a:visited {color:rgb(179, 50, 93);}
+.navdelheader a:active{color:black;}
+
+
+/* div de imagenes */
+div{
+    background-color: rgba(238, 220, 243, 0.726);
+}
+
+.divimagenprincipal{
+    height: 45%;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 2%;
+    border-radius: 20px;
+    background-image: url(../Img/imagenastro.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #040d1e;
+    filter:none;}
+
+.divimagenprincipal:hover {
+    filter:brightness(2);
+}
+    
+.divimagen1{
+    height: 50%;
+    float: left;
+    border-radius: 20px;
+    background-size: cover; 
+}
+
+
+/* ------------divs del medio ------------ */
+
+.divcuadro{
+    height: auto;
+    width: 30%;
+    float:right;
+    margin-top: 10%;
+    margin-bottom: 2%;
+    margin-right: 6%;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Bad Script', cursive;
+    font-size: 22px;
+    background-color: #eed3eda1;
+
+}
+
+.divinformacion{
+    height: auto;
+    width: 50%;
+    float:left;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    border-radius: 10px;
+    text-align: center;
+    padding: 2% 2% 2% 2%;
+}
+
+.imagenplanetas{
+    width: 98%;
+}
+
+.h3deindex{font-family: 'Uchen', serif;color: rgb(55, 59, 117);}
+
+/* footer */
+
+.footer{
+    background-image: linear-gradient(to right,rgb(61, 36, 85), rgb(53, 20, 82));
+    height: 40%;
+    width: 100%;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    color:white;
+    Font-family: Calibri, Candara, Arial, sans-serif;
+    font-size: 18px;
+    clear: both;
+}
+
+
+.linksfooter{
+    background-color:  rgb(53, 20, 82);
+    text-align: center;
+    padding-left: 0%;
+    padding-top: 5%;
+    padding-right: 0%;
+    padding-bottom: 5%;
+}
+    
+.linksfooter a{ color:bisque; text-decoration: none;}
+.linksfooter a:hover{color:violet;text-decoration: underline;}
+
+
+.redesycontacto{
+    
+    padding-top: 2%;
+    background-color:  rgb(53, 20, 82);
+    text-align: center;
+}
+
+.redesycontacto a{color:bisque; text-decoration: none; font-weight: bold;}
+.redesycontacto a:hover{color:violet; text-decoration: underline;}
+
+
+
+/*----------------------------------------------CONTACTO-----------------------------------------------------------------*/
+.maincontacto{
+    height: auto;
+    width: 100%;
+    background-color: rgba(254, 234, 250, 0.0);
+    border-radius: 10px;}
+.h2decontacto{font-family: 'Uchen', serif;}
+
+.maincontacto a {color: #397c86; font-size: larger;}
+.maincontacto a:hover{color:#16abd8}
+
+.columnacontacto1{background-color: rgba(245, 245, 220, 0.3); margin: 0% 5% 0% 6%; border-radius: 10px; text-align: center;}
+
+.columnacontacto2{background-color: rgba(245, 245, 220, 0.3); border-radius: 10px; text-align: center;}
+
+.logosderedes{
+    width: 50%;
+    margin-left: 40%;
+    margin-top: 30%;
+    margin-bottom: 3%;
+}
+
+
+/*----------------------------------------------PRODUCTOS-----------------------------------------------------------------*/
+
+.secciondeproductos{
+    width: 100%;
+    height:auto;
+    background-color: rgba(254, 234, 250, 0);
+    margin-bottom: 1%;
+    border-radius: 10px;
+}
+
+
+.productofoto{
+    height: 95%;
+    margin-left: 2%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Uchen', serif;
+    padding-top: 1%;
+    background-color: rgba(250, 235, 215, 0.767);
+}
+
+.valordeproducto{
+    background-color: rgba(182, 178, 169, 0.63);
+    margin: 0%;
+    padding: 0%;
+}
+
+.productodescripcion{
+    height: 100%;
+    border-radius: 10px;
+    background-color: rgba(234, 215, 250, 0.767);
+    margin-bottom: 1%;
+    font-size: 80%;
+}
+
+.imagenesproductos{
+    width: 98%;
+    text-align: center;
+    margin-top: 4%;
+    border-radius: 10px;
+    margin-bottom: 4%;
+}
+
+button{
+    border-radius: 10px;
+    background-color: rgb(247, 219, 255);
+    text-align: center;
+    width: 22%;
+    margin-left: 40%;
+}
+
+button:hover{
+    background-color: antiquewhite;
+    text-decoration: none ;
+
+}
+/*----------------------------------------------SOBRE MI-----------------------------------------------------------------*/
+.mainsobremi{
+    height: auto;
+    width: 100%;
+    background-color: rgba(254, 234, 250, 0);
+    margin:auto;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.imagensobremi{
+    background-color: white;
+    margin-right: 2%;
+    margin-left: 2%;
+    border-radius: 10px;
+    background-image: url(../Img/yo.jpeg);
+    background-size: cover;
+    filter: blur(5px);
+}
+
+.imagensobremi:hover{
+    filter:none;
+}
+
+
+.infosobremi{
+    background-color: rgba(255, 255, 255, 0.425);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 98%;
+    padding-top: 1%;
+}
